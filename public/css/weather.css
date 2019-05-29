@@ -1,0 +1,62 @@
+/*
+  Styles from this codepen:
+  https://codepen.io/official_naveen/pen/rgknI
+*/
+
+body {
+    width: 900px;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .container {
+    width: 680px;
+    padding: 30px;
+    margin: 0 auto;
+  }
+  fieldset {
+    display: block;
+    border: 0px;
+    padding: 30px;
+    border: solid 1px #213731;
+  }
+  .weather-input {
+    display: block;
+    font-weight:300;
+    width: 100%;
+    font-size: 25px;
+    border:0px;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+    color: #4b545f;
+    background: #fff;
+    font-family: Open Sans,Verdana;
+    padding: 10px 15px;
+    margin: 30px 0px;
+    transition: all 0.1s ease-in-out;
+    border-bottom:1px solid #ddd;
+  }
+
+  .weather-button {
+    background-color: transparent;
+    border:2px solid #ddd;
+    padding:10px 30px;
+    width: 100%;
+    min-width: 350px;
+    transition: all 0.1s ease-in-out;
+  }
+  .weather-button:hover {
+    border:2px solid #515151;
+  }
+  p {
+    color: #213731;
+    display: block;
+    font-weight:600;
+    width: 100%;
+    font-size: 25px;
+    width: 100%;
+    font-family: Open Sans,Verdana;
+    padding: 30px 15px;
+    margin: 30px 0px;
+  }
+  
