@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "engines": {
+    "node": "10.14.1"
   },
   "author": "",
   "license": "ISC",
@@ -14,5 +14,9 @@
     "ejs": "^2.6.1",
     "express": "^4.17.1",
     "request": "^2.88.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
